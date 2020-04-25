@@ -14,7 +14,7 @@
 
 * Procsee step be like:
 
-![image](https://github.com/TheNickDeveloper/WebApiCqrsPractice/Images/cqrsPattern.png)
+![image](https://github.com/TheNickDeveloper/WebApiCqrsPractice/blob/master/Images/cqrsPattern.png)
 
 * Use Web API as example, for any action will affact data source should belong to "Command"; For those action which will not affact result belong "Query".
 * For each action, they will have their own handler. Handler contain the business.
